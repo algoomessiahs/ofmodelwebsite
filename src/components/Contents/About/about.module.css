@@ -1,0 +1,102 @@
+
+
+.aboutMe {
+    background-color: #000;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+
+
+.aboutMe1 {
+    font-size: 5rem;
+    text-align: center;
+
+    color: var(--studio-darkmode-allwhite-ffffff1);
+    font-family: var(--font-anton);
+}
+
+
+.aabouttext {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 800;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: -0.05em;
+}
+
+
+
+.aboutContainerText {
+    padding: 4rem 0;
+    font-size: 1.8rem;
+}
+
+.aboutContainer img {
+    margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+    .aboutContainer img {
+        width: 30%;
+        
+    }
+    .aboutContainerText {
+        max-width: 40%;
+    }
+    .aboutContainer {
+        flex-direction: row;
+        gap: 7rem;
+    }
+
+}
+
+
+  .savannahStar {
+    background: linear-gradient(90deg, #fa709a, #fee140);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    .whiteBlonde {
+    background: linear-gradient(90deg, #84FAB0, #8FD3F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+.reality {
+    background: linear-gradient(90deg, #8ff4ad, #8ff48f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.connection {
+    background: linear-gradient(90deg, #E0C3FC, #8EC5FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stress {
+    background: linear-gradient(90deg, #8EC5FC, #E0C3FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.luxury {
+    background: linear-gradient(90deg, #ec3731, #ec7f5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

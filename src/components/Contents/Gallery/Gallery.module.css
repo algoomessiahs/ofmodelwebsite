@@ -1,0 +1,44 @@
+
+
+.gallerySection {
+    background-color: #000;
+}
+
+.gallerySection button {
+
+cursor: pointer;
+background: #292929;
+border-radius: 35px;
+    padding: 15px 42px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: -0.05em;
+
+}
+
+.gallerySection .btndiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallerySection h1 {
+    flex-direction: column;
+    text-align: left;
+    font-size: var(--font-size-8xl);
+    color: var(--studio-darkmode-allwhite-ffffff1);
+    font-family: var(--font-anton);
+    padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .gallerySection h1 {
+        font-size: 5rem;
+    }
+
+}
+
+
+
+

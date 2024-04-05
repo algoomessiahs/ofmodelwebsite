@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gotham:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --components-button-large1: Roboto;
+  --font-montserrat: Montserrat;
+  --font-anton: Anton;
+  --font-baloo-bhai: "Baloo Bhai";
+  --h4-gotham-book-active-left1: Gotham;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-4xs: 12px;
+  --font-size-3xs: 13px;
+  --font-size-2xs: 14px;
+  --components-button-large1-size: 15px;
+  --p3-gotham-book-active-left1-size: 16px;
+  --font-size-base: 18px;
+  --h4-gotham-book-active-left1-size: 20px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 30px;
+  --font-size-4xl: 32px;
+  --font-size-5xl: 38px;
+  --font-size-6xl: 80px;
+  --font-size-7xl: 114px;
+  --font-size-8xl: 200px;
+
+  /* Colors */
+  --main-colors-gray-10: #000;
+  --color-orange-100: #ff9b53;
+  --color-orange-200: #f99a0e;
+  --color-orange-300: #ed9c00;
+  --color-orange-400: #dc880b;
+  --color-orange-500: #9e6104;
+  --color-gray-100: #f3f7fb;
+  --color-gray-200: #eaeaea;
+  --main-colors-gray-11: #e6e6e6;
+  --color-gray-400: #e0e0e0;
+  --color-gray-500: #ccdcec;
+  --color-gray-600: #cecece;
+  --color-gray-700: #bdbdbd;
+  --color-gray-800: #4dabff;
+  --color-gray-900: #999;
+  --color-gray-1000: #8e8e94;
+  --color-gray-1100: #676767;
+  --main-colors-gray-21: #646464;
+  --color-gray-1300: #616161;
+  --color-gray-1400: #576074;
+  --color-gray-1500: #1262af;
+  --color-gray-1600: #1262ae;
+  --color-gray-1700: #434343;
+  --color-gray-1800: #424242;
+  --color-gray-1900: #303030;
+  --main-colors-gray-41: #292929;
+  --main-colors-gray-51: #0b0b0b;
+  --color-gray-2200: rgba(0, 0, 0, 0.87);
+  --color-gray-2300: rgba(226, 226, 226, 0.1);
+  --color-gray-2400: rgba(255, 255, 255, 0.2);
+  --studio-darkmode-allwhite-ffffff1: #fff;
+  --main-colors-purple-41: #a87ff3;
+  --main-colors-purple-51: #925ff0;
+  --complementary-colors-yellow-051: #fffded;
+  --main-colors-green-31: #c8fec7;
+  --complementary-colors-yellow-41: #ffec70;
+  --color-gold-200: #fdbf00;
+  --color-green: #79ca00;
+
+  /* Gaps */
+  --gap-11xs: 3px;
+  --gap-10xs: 4px;
+  --gap-9xs: 5px;
+  --gap-8xs: 6px;
+  --gap-7xs: 7px;
+  --gap-6xs: 8px;
+  --gap-5xs: 10px;
+  --gap-4xs: 11px;
+  --gap-3xs: 12px;
+  --gap-2xs: 14px;
+  --gap-xs: 15px;
+  --gap-sm: 17px;
+  --gap-md: 18px;
+  --gap-lg: 19px;
+  --gap-xl: 20px;
+  --gap-2xl: 21px;
+  --gap-3xl: 23px;
+  --gap-4xl: 24px;
+  --gap-5xl: 30px;
+  --gap-6xl: 36px;
+  --gap-7xl: 40px;
+  --gap-8xl: 44px;
+  --gap-9xl: 69px;
+  --gap-10xl: 70px;
+  --gap-11xl: 100px;
+
+  /* Paddings */
+  --padding-10xs: 3px;
+  --padding-9xs: 4px;
+  --padding-8xs: 5px;
+  --padding-7xs: 6px;
+  --padding-6xs: 8px;
+  --padding-5xs: 10px;
+  --padding-4xs: 12px;
+  --padding-3xs: 13px;
+  --padding-2xs: 15px;
+  --padding-xs: 16px;
+  --padding-sm: 20px;
+  --padding-md: 22px;
+  --padding-lg: 24px;
+  --padding-xl: 28px;
+  --padding-2xl: 30px;
+  --padding-3xl: 32px;
+  --padding-4xl: 33px;
+  --padding-5xl: 40px;
+  --padding-6xl: 50px;
+  --padding-7xl: 80px;
+  --padding-8xl: 82px;
+  --padding-9xl: 84px;
+  --padding-10xl: 100px;
+
+  /* border radiuses */
+  --br-4xs: 4px;
+  --br-3xs: 8px;
+  --br-2xs: 10px;
+  --br-xs: 12px;
+  --br-sm: 15px;
+  --br-md: 16px;
+  --br-lg: 29px;
+  --br-xl: 31px;
+  --br-2xl: 32px;
+  --br-3xl: 64px;
+
+  --bs-body-color: #fff !important;
+}
